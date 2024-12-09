@@ -637,6 +637,10 @@ MonoBehaviour:
   level: 0
   weapon: {fileID: 0}
   gear: {fileID: 0}
+  icon: {fileID: 0}
+  textLevel: {fileID: 0}
+  textName: {fileID: 0}
+  textDesc: {fileID: 0}
 --- !u!114 &90172798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1400,6 +1404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b8a481f58bfebc429fdda29e8b445e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coll: {fileID: 0}
 --- !u!66 &253594447
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -6051,6 +6056,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 4
+  myText: {fileID: 0}
+  mySlider: {fileID: 0}
 --- !u!114 &458246653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6614,6 +6621,9 @@ MonoBehaviour:
   - {fileID: 22100000, guid: 5c3a4256bda87544c9adcb9e28fe8ee3, type: 2}
   - {fileID: 22100000, guid: 378ba95c09851b342ac5dbb12b63716d, type: 2}
   - {fileID: 22100000, guid: b52ad9b3ff3c2ff4dbcfc14125649ca7, type: 2}
+  rigid: {fileID: 0}
+  spriter: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!95 &539536291
 Animator:
   serializedVersion: 5
@@ -6649,7 +6659,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scanRange: 7
   targetLayer:
-    serializedVersion: 2
     m_Bits: 64
   nearestTarget: {fileID: 0}
 --- !u!114 &539536293
@@ -7083,6 +7092,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97f173c52dc77e34d960342d6a4399eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rect: {fileID: 0}
+  items: []
 --- !u!1 &616361933
 GameObject:
   m_ObjectHideFlags: 0
@@ -7132,6 +7143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b8a481f58bfebc429fdda29e8b445e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coll: {fileID: 0}
 --- !u!66 &616361936
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -12611,6 +12623,10 @@ MonoBehaviour:
   level: 0
   weapon: {fileID: 0}
   gear: {fileID: 0}
+  icon: {fileID: 0}
+  textLevel: {fileID: 0}
+  textName: {fileID: 0}
+  textDesc: {fileID: 0}
 --- !u!114 &1021657720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12766,6 +12782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32a14ff544b13344bbd995ea13a620a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rect: {fileID: 0}
 --- !u!1 &1024962811
 GameObject:
   m_ObjectHideFlags: 0
@@ -13057,6 +13074,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
+  myText: {fileID: 0}
+  mySlider: {fileID: 0}
 --- !u!114 &1036434070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13150,6 +13169,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
+  myText: {fileID: 0}
+  mySlider: {fileID: 0}
 --- !u!114 &1052422378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13291,6 +13312,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLeft: 0
   spriter: {fileID: 1078308613}
+  player: {fileID: 0}
+  rightPos: {x: 0.35, y: -0.15, z: 0}
+  rightPosReverse: {x: -0.35, y: -0.15, z: 0}
+  rightScale: {x: 2, y: 2, z: 1}
+  leftScale: {x: 3, y: 3, z: 1}
+  leftRot: {x: 0, y: 0, z: -0.6087614, w: 0.7933533}
+  leftRotReverse: {x: 0, y: 0, z: -0.76604444, w: 0.64278764}
 --- !u!1 &1112566850
 GameObject:
   m_ObjectHideFlags: 0
@@ -13390,6 +13418,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLeft: 1
   spriter: {fileID: 1112566852}
+  player: {fileID: 0}
+  rightPos: {x: 0.35, y: -0.15, z: 0}
+  rightPosReverse: {x: -0.35, y: -0.15, z: 0}
+  rightScale: {x: 2, y: 2, z: 1}
+  leftScale: {x: 3, y: 3, z: 1}
+  leftRot: {x: 0, y: 0, z: -0.6087614, w: 0.7933533}
+  leftRotReverse: {x: 0, y: 0, z: -0.76604444, w: 0.64278764}
 --- !u!1 &1112674208
 GameObject:
   m_ObjectHideFlags: 0
@@ -18196,6 +18231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b8a481f58bfebc429fdda29e8b445e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coll: {fileID: 0}
 --- !u!1 &1222636702
 GameObject:
   m_ObjectHideFlags: 0
@@ -18695,6 +18731,10 @@ MonoBehaviour:
   level: 0
   weapon: {fileID: 0}
   gear: {fileID: 0}
+  icon: {fileID: 0}
+  textLevel: {fileID: 0}
+  textName: {fileID: 0}
+  textDesc: {fileID: 0}
 --- !u!114 &1289974198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18904,6 +18944,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  myText: {fileID: 0}
+  mySlider: {fileID: 0}
 --- !u!1 &1312264142
 GameObject:
   m_ObjectHideFlags: 0
@@ -19333,6 +19375,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 3
+  myText: {fileID: 0}
+  mySlider: {fileID: 0}
 --- !u!114 &1381049527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19993,6 +20037,8 @@ MonoBehaviour:
     health: 35
     speed: 2
   levelTime: 0
+  level: 0
+  timer: 0
 --- !u!1 &1453797367
 GameObject:
   m_ObjectHideFlags: 0
@@ -20562,6 +20608,7 @@ MonoBehaviour:
   - {fileID: 33199780}
   - {fileID: 1383298046}
   uiNotice: {fileID: 1422426180}
+  achives: 
 --- !u!4 &1541605106
 Transform:
   m_ObjectHideFlags: 0
@@ -21070,6 +21117,10 @@ MonoBehaviour:
   level: 0
   weapon: {fileID: 0}
   gear: {fileID: 0}
+  icon: {fileID: 0}
+  textLevel: {fileID: 0}
+  textName: {fileID: 0}
+  textDesc: {fileID: 0}
 --- !u!1 &1748462468
 GameObject:
   m_ObjectHideFlags: 0
@@ -22032,6 +22083,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgmClip: {fileID: 8300000, guid: 4559935c00ef8e94b846e2e03e39f0d0, type: 3}
   bgmVolume: 0.1
+  bgmPlayer: {fileID: 0}
+  bgmEffect: {fileID: 0}
   sfxClips:
   - {fileID: 8300000, guid: 291608b8d286e2a4580ff36324455ce2, type: 3}
   - {fileID: 8300000, guid: 0bddcb411d826e14bb26d40ae45d8e22, type: 3}
@@ -22045,6 +22098,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2c4bc183a5df5aa4baf7c4fcf236a2de, type: 3}
   sfxVolume: 0.5
   channels: 16
+  sfxPlayers: []
+  channelIndex: 0
 --- !u!1 &1938858651
 GameObject:
   m_ObjectHideFlags: 0
@@ -22094,6 +22149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b8a481f58bfebc429fdda29e8b445e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coll: {fileID: 0}
 --- !u!66 &1938858654
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -26440,6 +26496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 10000000
   per: -1
+  rigid: {fileID: 0}
 --- !u!61 &2029806075
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26586,6 +26643,10 @@ MonoBehaviour:
   level: 0
   weapon: {fileID: 0}
   gear: {fileID: 0}
+  icon: {fileID: 0}
+  textLevel: {fileID: 0}
+  textName: {fileID: 0}
+  textDesc: {fileID: 0}
 --- !u!114 &2052194376
 MonoBehaviour:
   m_ObjectHideFlags: 0
