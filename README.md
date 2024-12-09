@@ -1,6 +1,10 @@
 뱀파이어 서바이벌 모작
 
+![스크린샷 2024-12-09 100334](https://github.com/user-attachments/assets/7c40ff63-4c81-4fe1-a89e-58a4f2e09453)
 
+
+📹 실행 영상
+https://youtube.com/shorts/6fjmaJ0jWpY
 
 📋 프로젝트 소개  
 
